@@ -272,3 +272,7 @@ int main() {
     printf("Successfully closed!\n");
 */
 }
+> PYTH回傳回傳
+def on_message(mosq, obj, msg):
+    print("Message: " + str(msg.payload) + "\n")
+    s.write(bytes("/Leave_Mode/run\r\n", 'UTF-8'))
